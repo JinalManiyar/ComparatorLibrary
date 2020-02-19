@@ -1,0 +1,9 @@
+<suite name="Comparator Library">
+<test name="testngTest">
+<classes>
+<class name="com.ComparatorLibrary.comparator.equalResponseComparisonTest" />
+<class name="com.ComparatorLibrary.comparator.notEqualResponseComparisonTest" />
+<class name="com.ComparatorLibrary.comparator.noValidResponseComparisonTest" />
+</classes>
+</test>
+</suite>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-02-19T17:21:09 IST" name="Surefire suite" finished-at="2020-02-19T17:21:11 IST" duration-ms="2035">
+    <groups>
+    </groups>
+    <test started-at="2020-02-19T17:21:09 IST" name="Surefire test" finished-at="2020-02-19T17:21:11 IST" duration-ms="2035">
+      <class name="com.ComparatorLibrary.comparator.equalResponseComparisonTest">
+        <test-method signature="equalResponseComparisonTest()[pri:0, instance:com.ComparatorLibrary.comparator.equalResponseComparisonTest@42e99e4a]" started-at="2020-02-19T17:21:09 IST" name="equalResponseComparisonTest" finished-at="2020-02-19T17:21:11 IST" duration-ms="1686" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- equalResponseComparisonTest -->
+      </class> <!-- com.ComparatorLibrary.comparator.equalResponseComparisonTest -->
+      <class name="com.ComparatorLibrary.comparator.noValidResponseComparisonTest">
+        <test-method signature="noValidResponseComparisonTest()[pri:0, instance:com.ComparatorLibrary.comparator.noValidResponseComparisonTest@52e6fdee]" started-at="2020-02-19T17:21:11 IST" name="noValidResponseComparisonTest" finished-at="2020-02-19T17:21:11 IST" duration-ms="91" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- noValidResponseComparisonTest -->
+      </class> <!-- com.ComparatorLibrary.comparator.noValidResponseComparisonTest -->
+      <class name="com.ComparatorLibrary.comparator.notEqualResponseComparisonTest">
+        <test-method signature="notEqualResponseComparisonTest()[pri:0, instance:com.ComparatorLibrary.comparator.notEqualResponseComparisonTest@14dd9eb7]" started-at="2020-02-19T17:21:11 IST" name="notEqualResponseComparisonTest" finished-at="2020-02-19T17:21:11 IST" duration-ms="185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- notEqualResponseComparisonTest -->
+      </class> <!-- com.ComparatorLibrary.comparator.notEqualResponseComparisonTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
