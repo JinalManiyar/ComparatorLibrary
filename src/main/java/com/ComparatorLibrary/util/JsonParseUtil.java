@@ -17,17 +17,19 @@ public class JsonParseUtil {
 	private ObjectMapper objectMapper = new ObjectMapper();
 	
 	
-	public Map<String, String> parseResponse(String response) {
+	public Map<String, String> parseResponse(String response) { //passed json response as an input
 		
 		Map<String, String> responseMap = new HashMap<>();
 		
 		//readtree to check type of jsonnode
 		try {
-			addKeys("", objectMapper.readTree(response), responseMap);   
+			addKeys("",
+					objectMapper.readTree(response),
+					responseMap);
  		} catch (IOException e) {
 			e.printStackTrace();
 		}
-		return responseMap;
+		return responseMap; // map is returned as output
 	}
 
 	private  void addKeys(String currentPath, JsonNode jsonNode, Map<String, String> responseMap) {   

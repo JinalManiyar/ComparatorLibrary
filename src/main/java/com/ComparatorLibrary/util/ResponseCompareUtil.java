@@ -8,6 +8,9 @@ public class ResponseCompareUtil {
 	public boolean compare(Map<String, String> response1, Map<String, String> response2) {
 
 		// If number of keys of both responses are equal or not
+		System.out.println("Response1 size");
+		System.out.printf("response1.size()");
+		System.out.println();
 		if (response2.size() != response1.size()) {
 			return false;
 		}
